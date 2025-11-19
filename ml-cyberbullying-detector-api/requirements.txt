@@ -1,0 +1,14 @@
+fastapi>=0.95.0
+uvicorn[standard]>=0.18.0
+transformers>=4.36.2
+torch>=2.1.0
+detoxify
+gradio
+boto3
+mysql-connector-python
+protobuf>=3.20.0
+accelerate>=0.24.0
+safetensors
+huggingface_hub
+google-generativeai
+spacy
