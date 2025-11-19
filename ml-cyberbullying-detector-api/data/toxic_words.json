@@ -1,0 +1,32 @@
+{
+  "custom_toxic_phrases": [
+     "slurs",
+    "nice one drongo",
+    "drongo",
+     "bozo",
+    "dingbat",
+    "nice one bozo",
+    "you are not sigma",
+    "you're not sigma",
+    "your not sigma",
+    "you are chopped as",
+    "your chopped as",
+    "you're chopped as",
+    "you are nobody's fine shyt",
+    "you're nobody's fine shyt",
+    "your nobody's fine shyt",
+    "you so delulu",
+    "you are chuzz",
+    "you're chuzz",
+    "your chuzz",
+    "you are cringe",
+    "you're cringe",
+    "your cringe",
+    "you have no rizz",
+    "you have no aura",
+    "you so cringe",
+    "you such a chuzz",
+    "you such a cringe"
+  ],
+  "modifiers": ["you", "you're", "your", "so", "such", "very", "really", "totally", "super"]
+}
