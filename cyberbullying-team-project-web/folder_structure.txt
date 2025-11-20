@@ -1,0 +1,55 @@
+Folder PATH listing for volume Windows
+Volume serial number is DAE3-F702
+C:.
+¦   folder_structure.txt
+¦   
++---data
+¦       comments3.csv
+¦       internet_usage_cyberbullying.xls
+¦       multiTimeline.csv
+¦       VCAMS_indicator_3_3.xlsx
+¦       VCAMS_indicator_8_1_0.xlsx
+¦       
++---notebooks
+¦       comments.ipynb
+¦       cyberbullying_victoria_data.ipynb
+¦       suicide_goodle_search.ipynb
+¦       
++---public
+¦   ¦   character-book.gif
+¦   ¦   facebook1.gif
+¦   ¦   gleepo1.gif
+¦   ¦   insta1.gif
+¦   ¦   quiz-class1.png
+¦   ¦   snapchat1.gif
+¦   ¦   space1.png
+¦   ¦   whatsapp1.gif
+¦   ¦   
+¦   L---quizPage
+¦           95265__department64__tree_pop.wav
+¦           blue-skies.mp3
+¦           boy.svg
+¦           boy_maroon.svg
+¦           boy_orange.svg
+¦           girl.svg
+¦           girl_maroon.svg
+¦           girl_orange.svg
+¦           logo.svg
+¦           
+L---src
+    +---api
+    ¦       get_comments_lambda_function.py
+    ¦       post_result_lambda_function.py
+    ¦       
+    +---components
+    ¦   L---infographic
+    ¦           Infographic.css
+    ¦           Infographic.tsx
+    ¦           
+    +---hooks
+    ¦       useInfoGraphic.ts
+    ¦       
+    L---pages
+            Quiz.tsx
+            SocialMediaQuestion.tsx
+            
