@@ -68,10 +68,14 @@ I designed and implemented two interactive visualisations to make cyberbullying 
 - **Visualisation 1 – "How My Class Looks Like":**  
   A personalised snapshot of cyberbullying prevalence, showing teens they are not alone and encouraging them to seek help. 
   *(Displayed on the website under **“Cyber Stats”**)*
+  ![How My Class Looks Like](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/visualisation1.gif)
+
 
 - **Visualisation 2 – "Social Media & Cyberbullying":**  
   Highlights cyberbullying patterns on popular platforms with an age-appropriate, stylised format and links to reporting tools.
   *(Displayed on the website under **“Net Quiz”**)*
+  ![Social Media & Cyberbullying](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/visualisation2.gif)
+
 
 **Implementation:**  
 - Built full prototypes in **React** with all logic and interactivity.  
@@ -99,6 +103,12 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
     - Weak areas by bullying type  
     - Comparative performance with other users  
     - Total score and percentile ranking  
+
+**Demo:**  
+![Clean My Feed Demo](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/cleen_my_feed.gif)
+
+[View full API source files →](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web/src/api)
+
 
 **Technical Stack:** Python, MySQL, AWS Lambda, JSON, CORS, serverless backend
 
