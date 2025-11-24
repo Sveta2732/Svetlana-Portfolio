@@ -4,7 +4,34 @@
 **Stack:** Python, Hugging Face, Gradio, Google Gemini API, AWS RDS (MySQL), JSON, NLP Models
 
 ---
+## TL;DR – Quick Overview
 
+**Type:** Individual Project · Machine Learning · NLP · Web API  
+**Role:** Developer (Data Science & Backend)
+
+**Goal:**  
+Part of an anti-cyberbullying platform for teenagers. Detects toxic or harmful messages, suggests safer rephrasing, and logs results for analysis.
+
+**Key Features:**  
+- Detects toxic text using **pre-trained Hugging Face models**  
+- Suggests safer alternatives via Google Gemini API (with local fallback)  
+- Logs predictions and rephrased text in AWS MySQL  
+- Provides a demo interface via Gradio  
+- Integrated with web platform for real-time analysis
+
+**Tech Stack:**  
+Python, FastAPI, Hugging Face, Google Gemini API, AWS RDS (MySQL), Gradio, JSON
+
+**Performance Notes:**  
+- Processing can take up to ~25 seconds  
+- Gemini API may take several minutes if inactive  
+- Hosted on a free server → possible latency  
+
+**Live Demo & Media:**  
+- [Hugging Face Space Demo](https://huggingface.co/spaces/sste0051/AntiBullyinghf)  
+- GIFs & videos in repo demo folder
+
+---
 ## 🎯 Description
 This API is part of an anti-cyberbullying web platform designed for teenagers. It analyzes text for toxic or harmful content using multiple ML models hosted on Hugging Face. If any model flags toxicity, the message is considered potentially harmful. The tool can suggest safer rephrasing using the Gemini API, and if unavailable, falls back to a local text rephrasing model. All text and results are logged securely in an AWS database for analysis.
 
@@ -111,7 +138,18 @@ ml-cyberbullying-detector-api/
 [Anti-Bullying ML Demo](https://huggingface.co/spaces/sste0051/AntiBullyinghf)
 
 ---
+## ⚡ Performance & Scalability
 
+- The API relies on Hugging Face models, Google Gemini API, and database logging, which can introduce latency.  
+- Processing a full message can take **up to ~25 seconds** under normal conditions.  
+- If the Google Gemini API is inactive ("asleep"), it may take **several minutes** to wake up and respond.  
+- The project is hosted on a **free server**, which can further slow down response times, especially for large inputs or concurrent users.  
+- Future improvements could include:
+  - Caching frequent requests or model outputs
+  - Using lighter-weight models for faster response
+  - Asynchronous API calls to improve user experience
+  
+---
 ## 🔒 Model Licenses
 
 This project uses the following pre-trained models and their licenses:

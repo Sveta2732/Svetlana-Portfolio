@@ -8,7 +8,32 @@ The platform combines educational content, AI-assisted text analysis, interactiv
 Our team successfully presented the final product to industry professionals and **won the Monash PG Industry Experience Expo**.
 
 ---
+## TL;DR – Quick Overview
 
+**Type:** Group Project · Data Science · AI · Full-Stack Web App  
+**Role:** Data Scientist & Backend Engineer  
+
+**Goal:**  
+Teen-focused platform to help recognise, report, and respond to cyberbullying. Combines AI, gamified learning, and interactive visualisations.
+
+**Key Contributions:**  
+- **Data Analysis & Research:** Cleaned and merged teen cyberbullying datasets.  
+- **Interactive Visualisations:** React dashboards showing cyberbullying stats.  
+- **Game API ("Clean My Feed"):** AWS Lambda + MySQL backend for gamified learning.  
+- **Toxicity Detection API:** FastAPI + pre-trained Hugging Face models + Gemini API with AWS MySQL logging.  
+- **Database Design:** Centralized schema supporting APIs, scoring, and analytics.
+
+**Tech Stack:**  
+R, Python, React, FastAPI, AWS Lambda, MySQL, Hugging Face NLP models (pre-trained), Gemini API
+
+**Live Demo:**  
+[Website](https://worldwecreated.org/) (partial features; see repo for videos/GIFs)  
+
+**Outcome:**  
+- Presented to industry professionals; **won Monash PG Industry Experience Expo**  
+- Integrated AI, data-driven insights, and gamified UX for teenagers
+> For full details, see below.
+---
 ## 🔍 Project Overview
 
 Teenagers often struggle to recognise cyberbullying, understand how to respond, and know where to seek help.  
@@ -127,6 +152,9 @@ Analyzes user-submitted messages to detect harmful or bullying content and offer
 This API has its **own repository**: [ml-cyberbullying-detector-api](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api)  
 
 **Technical Stack:** FastAPI, Python, Hugging Face, Gemini, MySQL (AWS)
+
+![API Demo](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/ml-cyberbullying-detector-api/demo/demo.gif)
+
 
 ---
 

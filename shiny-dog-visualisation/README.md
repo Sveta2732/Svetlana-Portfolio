@@ -82,10 +82,9 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** Introductory visualisation showing the total number of dogs in each council of South Australia, as well as the overall total across all councils.  
 - **Interactivity:** Hover over individual council bars to see the exact number of dogs per council; hover over the center to see the total number of dogs in South Australia.
 
-![Circular Lollipop Plot](images/circular_lollipop.png)  
-*Interactive version available in the Shiny app.*
 
-![Circular Lollipop Plot GIF](images/circular_lollipop_demo.gif)
+
+![Circular Lollipop Plot GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/circular_lollipop.gif)
 
 ---
 
@@ -93,10 +92,9 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** Shows the flow of dog ownership by owner age and gender across South Australia, illustrating how many dogs are owned by each demographic group. This provides a clear overview of the distribution of dog ownership across different ages and genders.  
 - **Interactivity:** Hover over nodes to see the age/gender category and the corresponding number of dogs.
 
-![Sankey Diagram](images/sankey_diagram.png)  
-*Interactive version available in the Shiny app.*
 
-![Sankey Diagram GIF](images/sankey_diagram_demo.gif)
+
+![Sankey Diagram GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/sankey_diagram.gif)
 
 ---
 
@@ -104,17 +102,18 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** Compares the average number of dogs per person across councils. Councils with above-average dog ownership are highlighted in green, while those below the South Australia average are shown in red, providing an intuitive view of regional differences.  
 - **Interactivity:** Hover over bars to see council names and exact averages.
 
-![Diverging Bar / Polar Plot](images/polar_plot.png)  
-*Interactive version available in the Shiny app.*
 
-![Diverging Bar / Polar Plot GIF](images/polar_plot_demo.gif)
+
+![Polar Plot GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/polar_plot.gif)
+
 
 ---
 
 ### 4. Correlogram  
 - **Purpose:** Shows correlations between responsible ownership indicators (registration, microchipping, desexing).  
 
-![Correlogram](images/correlogram.png)
+![Correlogram](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/correlogram.png)
+
 
 
 ---
@@ -123,10 +122,9 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** Visualizes the percentage of responsible dog ownership across councils in South Australia. Different colors represent varying levels of responsible ownership, while the accompanying bar chart provides a detailed breakdown of these percentages.  
 - **Interactivity:** Zoomable and pannable map, tooltips showing council-specific data, and a checklist to select which ownership criteria to display.
 
-![Map + Bar Chart](images/map_bar.png)  
 
+![Map GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/map.gif)
 
-![Map + Bar Chart GIF](images/map_bar_demo.gif)
 
 ---
 
@@ -134,10 +132,10 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** Explores the relationship between the number of dogs and crime rates across councils. Histograms provide distributions of both variables, while the scatter plot shows correlations.  
 - **Interactivity:** Users can exclude outliers to better observe overall trends.
 
-![Scatter Plot + Histograms](images/scatter_hist.png)  
 
 
-![Scatter Plot + Histograms GIF](images/scatter_hist_demo.gif)
+![Scatter + Hist GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/scatter_hist_demo.gif)
+)
 
 ---
 
@@ -145,9 +143,9 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** Shows number of dog-related incidents over time and locations.  
 - **Interactivity:** Time slider updates this and the next chart.
 
-![Waffle Chart](images/waffle_chart.png)
 
-![Waffle Chart](images/scatter_hist_demo.gif)
+![Waffle Chart GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/waffle_chart.gif)
+
 
 ---
 
@@ -155,9 +153,10 @@ This project is implemented in **R** as an **interactive Shiny application**, le
 - **Purpose:** This visualisation explores dog-related incidents by leash status and victim type over time. It allows users to select different leash statuses, compare the types of victims under various conditions across locations and years, and gain a deeper understanding of how leash status influences the nature of incidents in the community.  
 - **Interactivity:** Users can filter by leash status.
 
-![Static Time Series Chart](images/time_series.png)  
 
-![Animated Time Series GIF](images/time_series.gif)
+
+![Time Series GIF](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/time_series.gif)
+
 
 ---
 ## Key Findings
@@ -252,11 +251,12 @@ The app loads in approximately one minute, in three stages:
 This GIF/video demonstrates the full loading sequence of the Shiny app.  
 
 
-![Full App Load GIF](demo/full_app_load.gif)
+![Full App Shiny Demo](https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/demo_shiny.gif)
+
 
 *or, if using a video:*
 
-[Watch Full App Demo Video](demo/full_app_load.mp4)
+[Watch Full App Demo Video](https://github.com/Sveta2732/Svetlana-Portfolio/raw/1662e103f3c33e4747b79994b034dd71f0d4eaa8/shiny-dog-visualisation/demo/demo.mp4)
 
 ---
 ## Reflections and Learning Outcomes
