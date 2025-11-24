@@ -1,0 +1,88 @@
+#sankey-plot {
+  padding-left: 0 !important;
+  margin-left: -100px !important;  
+}
+
+.margin-left-50 {
+  margin-left: 80px; 
+}
+
+.margin-top {
+  margin-top: 70px; 
+}
+
+body {
+  background-color: #F5F4EF;
+}
+
+.well {
+  background-color: #E0DED8;
+}
+
+
+.plot-margin {
+  background-color: #F5F4EF;
+}
+
+/* Ensure the entire layout has the desired background color */
+html, body, .container-fluid, .row, .col-sm-12 {
+  background-color: #F5F4EF;
+}
+
+/* Define a class for text indentation */
+.indented-paragraph {
+  text-indent: 2em;  
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 70px; 
+  margin-top: 150px; 
+  width: 160%; 
+}
+
+.spacing-bottom {
+  margin-bottom: 50px; 
+}
+
+
+.margin-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 65px; 
+  margin-top: -25px;
+  width: 125%; 
+}
+
+.margin-plot {
+  margin-left: 60px;
+}
+
+.vis_4-plot {
+  padding-left: 50px;
+}
+
+.title-padding {
+  padding-left: 40px; 
+}
+.sidebar-text {
+  color: brown;
+}
+
+.leaflet-container .leaflet-control .legend {
+  color: black;
+  font-weight: bold;
+}
+
+.leaflet-tooltip {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+}
