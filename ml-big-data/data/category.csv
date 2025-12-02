@@ -1,0 +1,171 @@
+"category_id","cat_level1","cat_level2","cat_level3"
+1,Personal Care,Makeup,Compact
+2,Free Items,Free Gifts,Ties
+3,Footwear,Shoes,Casual Shoes
+4,Personal Care,Bath and Body,Body Wash and Scrub
+5,Personal Care,Skin Care,Face Wash and Cleanser
+6,Apparel,Topwear,Dupatta
+7,Apparel,Loungewear and Nightwear,Nightdress
+8,Accessories,Jewellery,Bangle
+9,Accessories,Belts,Belts
+10,Apparel,Topwear,Suspenders
+11,Personal Care,Eyes,Kajal and Eyeliner
+12,Apparel,Bottomwear,Track Pants
+13,Apparel,Innerwear,Innerwear Vests
+14,Personal Care,Skin Care,Sunscreen
+15,Apparel,Innerwear,Shapewear
+16,Apparel,Topwear,Sweatshirts
+17,Accessories,Perfumes,Perfume and Body Mist
+18,Apparel,Bottomwear,Jeans
+19,Apparel,Loungewear and Nightwear,Lounge Shorts
+20,Apparel,Saree,Sarees
+21,Apparel,Innerwear,Briefs
+22,Footwear,Sandal,Flip Flops
+23,Footwear,Shoes,Formal Shoes
+24,Free Items,Vouchers,Ipad
+25,Accessories,Bags,Tablet Sleeve
+26,Footwear,Shoes,Sports Shoes
+27,Personal Care,Skin,Face Serum and Gel
+28,Apparel,Topwear,Belts
+29,Accessories,Sports Accessories,Wristbands
+30,Personal Care,Fragrance,Fragrance Gift Set
+31,Apparel,Apparel Set,Clothing Set
+32,Personal Care,Lips,Lip Care
+33,Accessories,Bags,Messenger Bag
+34,Personal Care,Beauty Accessories,Beauty Accessory
+35,Apparel,Topwear,Rain Jacket
+36,Apparel,Bottomwear,Tights
+37,Accessories,Bags,Duffel Bag
+38,Personal Care,Fragrance,Perfume and Body Mist
+39,Apparel,Innerwear,Camisoles
+40,Apparel,Topwear,Tshirts
+41,Apparel,Bottomwear,Jeggings
+42,Personal Care,Skin,Face Moisturisers
+43,Personal Care,Makeup,Makeup Remover
+44,Accessories,Shoe Accessories,Shoe Laces
+45,Apparel,Topwear,Shrug
+46,Free Items,Free Gifts,Laptop Bag
+47,Apparel,Bottomwear,Shorts
+48,Free Items,Free Gifts,Handbags
+49,Apparel,Topwear,Tops
+50,Accessories,Bags,Clutches
+51,Personal Care,Makeup,Kajal and Eyeliner
+52,Personal Care,Lips,Lip Plumper
+53,Free Items,Free Gifts,Wallets
+54,Accessories,Jewellery,Ring
+55,Apparel,Apparel Set,Swimwear
+56,Apparel,Bottomwear,Patiala
+57,Accessories,Accessories,Messenger Bag
+58,Home,Home Furnishing,Cushion Covers
+59,Personal Care,Lips,Lip Gloss
+60,Accessories,Cufflinks,Cufflinks
+61,Apparel,Bottomwear,Capris
+62,Accessories,Scarves,Scarves
+63,Apparel,Topwear,Nehru Jackets
+64,Accessories,Bags,Backpacks
+65,Footwear,Shoes,Heels
+66,Accessories,Bags,Trolley Bag
+67,Apparel,Topwear,Shirts
+68,Apparel,Loungewear and Nightwear,Lounge Pants
+69,Apparel,Bottomwear,Churidar
+70,Accessories,Watches,Watches
+71,Apparel,Bottomwear,Salwar
+72,Apparel,Topwear,Blazers
+73,Personal Care,Skin Care,Mask and Peel
+74,Apparel,Loungewear and Nightwear,Bath Robe
+75,Accessories,Socks,Socks
+76,Personal Care,Makeup,Eyeshadow
+77,Accessories,Water Bottle,Water Bottle
+78,Apparel,Dress,Jumpsuit
+79,Footwear,Shoes,Sandals
+80,Apparel,Loungewear and Nightwear,Shorts
+81,Footwear,Flip Flops,Flip Flops
+82,Personal Care,Skin,Face Scrub and Exfoliator
+83,Footwear,Shoes,Flats
+84,Accessories,Stoles,Stoles
+85,Personal Care,Eyes,Mascara
+86,Apparel,Bottomwear,Trousers
+87,Apparel,Topwear,Kurtas
+88,Accessories,Shoe Accessories,Shoe Accessories
+89,Accessories,Accessories,Hair Accessory
+90,Personal Care,Nails,Nail Polish
+91,Apparel,Bottomwear,Swimwear
+92,Sporting Goods,Wristbands,Wristbands
+93,Accessories,Headwear,Caps
+94,Accessories,Belts,Tshirts
+95,Apparel,Topwear,Dresses
+96,Accessories,Accessories,Travel Accessory
+97,Accessories,Bags,Wallets
+98,Personal Care,Lips,Lipstick
+99,Apparel,Loungewear and Nightwear,Baby Dolls
+100,Free Items,Free Gifts,Backpacks
+101,Apparel,Bottomwear,Tracksuits
+102,Apparel,Topwear,Lehenga Choli
+103,Personal Care,Eyes,Eyeshadow
+104,Personal Care,Skin Care,Mens Grooming Kit
+105,Accessories,Gloves,Gloves
+106,Apparel,Innerwear,Trunk
+107,Accessories,Accessories,Water Bottle
+108,Accessories,Bags,Rucksacks
+109,Apparel,Apparel Set,Kurta Sets
+110,Personal Care,Hair,Hair Colour
+111,Apparel,Bottomwear,Skirts
+112,Accessories,Headwear,Headband
+113,Accessories,Eyewear,Sunglasses
+114,Footwear,Sandal,Sports Sandals
+115,Apparel,Topwear,Kurtis
+116,Apparel,Loungewear and Nightwear,Robe
+117,Personal Care,Makeup,Highlighter and Blush
+118,Personal Care,Skin,Body Lotion
+119,Accessories,Bags,Handbags
+120,Accessories,Bags,Waist Pouch
+121,Apparel,Topwear,Rompers
+122,Apparel,Innerwear,Boxers
+123,Apparel,Bottomwear,Rain Trousers
+124,Free Items,Free Gifts,Scarves
+125,Personal Care,Skin Care,Face Moisturisers
+126,Free Items,Free Gifts,Clutches
+127,Apparel,Bottomwear,Salwar and Dupatta
+128,Apparel,Innerwear,Bra
+129,Accessories,Jewellery,Pendant
+130,Apparel,Topwear,Suits
+131,Personal Care,Bath and Body,Nail Essentials
+132,Accessories,Ties,Ties
+133,Personal Care,Bath and Body,Body Lotion
+134,Personal Care,Lips,Lip Liner
+135,Sporting Goods,Sports Equipment,Footballs
+136,Personal Care,Skin,Mask and Peel
+137,Accessories,Headwear,Hat
+138,Personal Care,Skin Care,Face Scrub and Exfoliator
+139,Personal Care,Perfumes,Perfume and Body Mist
+140,Accessories,Cufflinks,Ties and Cufflinks
+141,Apparel,Bottomwear,Stockings
+142,Accessories,Jewellery,Jewellery Set
+143,Accessories,Jewellery,Earrings
+144,Free Items,Free Gifts,Free Gifts
+145,Apparel,Topwear,Jackets
+146,Apparel,Loungewear and Nightwear,Night suits
+147,Accessories,Mufflers,Mufflers
+148,Apparel,Topwear,Tunics
+149,Accessories,Umbrellas,Umbrellas
+150,Apparel,Loungewear and Nightwear,Lounge Tshirts
+151,Accessories,Jewellery,Necklace and Chains
+152,Accessories,Jewellery,Bracelet
+153,Personal Care,Makeup,Foundation and Primer
+154,Personal Care,Fragrance,Deodorant
+155,Apparel,Topwear,Sweaters
+156,Accessories,Accessories,Accessory Gift Set
+157,Footwear,Sandal,Sandals
+158,Accessories,Accessories,Key chain
+159,Personal Care,Makeup,Concealer
+160,Personal Care,Skin Care,Eye Cream
+161,Apparel,Bottomwear,Leggings
+162,Apparel,Topwear,Waistcoat
+163,Accessories,Bags,Mobile Pouch
+164,Personal Care,Skin Care,Toner
+165,Accessories,Bags,Travel Accessory
+166,Apparel,Dress,Dresses
+167,Sporting Goods,Sports Equipment,Basketballs
+168,Apparel,Socks,Booties
+169,Accessories,Bags,Laptop Bag
+170,Accessories,Wallets,Wallets

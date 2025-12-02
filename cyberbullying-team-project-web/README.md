@@ -119,6 +119,7 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
   - Balanced exposure: 4 positive + 6 non-positive comments per block.  
   - Returns comments in JSON format with CORS headers.
 
+   
 - **Feedback API (AWS Lambda + MySQL)**  
   - Processes player submissions and validates responses against labelled comments.  
   - Calculates scores, highlights mistakes, and identifies growth areas.  
@@ -128,6 +129,40 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
     - Weak areas by bullying type  
     - Comparative performance with other users  
     - Total score and percentile ranking  
+
+  **Endpoint:**  
+   `POST /postResult2 https://25g8thdik5.execute-api.ap-southeast-2.amazonaws.com/default/postResult2)`
+
+     **Request Body (JSON):**
+  ```json
+  {
+    "submission": [
+      { "comment_id": 2, "response_status": "like", "response_time": 3000 },
+      { "comment_id": 4, "response_status": "dislike", "response_time": 3000 },
+      { "comment_id": 3, "response_status": "dislike", "response_time": 2000 }
+    ]
+  }
+  ```
+   **Example Response (JSON):**
+  ```json
+    {
+    "mistakes": [
+      ["Maybe stick to doing something else, because this just doesn't work.", "bullying"],
+      ["I enjoyed watching, though some parts felt a bit slow.", "positive"]
+    ],
+    "problem": "general negative",
+    "summary": "Growth Area: Detecting offensive behavior. You sometimes missed comments that were actually bullying. Remember that even general insults and offensive language can be forms of cyberbullying.",
+    "score": 0,
+    "answered": 3,
+    "answered_cor": 1,
+    "percent": "33.3%",
+    "submission_id": 372,
+    "comparison": "20.7"
+  }
+  ```
+**Postman Demo:**  
+<img src="screenshot2.png" alt="Postman Screenshot2" width="400"/>
+
 
 **Demo:**  
 ![Clean My Feed Demo](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/cleen_my_feed.gif)

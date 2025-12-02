@@ -122,7 +122,9 @@ ml-cyberbullying-detector-api/
 ## 🔗 Live Demo
 
 ### Website Screenshots
-![Website Demo](https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/75b920712a0cd7551c4f28b4695a33fbde8f9ddd/ml-cyberbullying-detector-api/demo/website_demo.png)
+![Website Demo](https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/ml-cyberbullying-detector-api/demo/text_checker.png)
+
+### Gradio Screenshots
 ![Interface Demo](https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/75b920712a0cd7551c4f28b4695a33fbde8f9ddd/ml-cyberbullying-detector-api/demo/interface_demo.png)
 
 ### GIF Demo of API in action
@@ -138,6 +140,30 @@ ml-cyberbullying-detector-api/
 [Anti-Bullying ML Demo](https://huggingface.co/spaces/sste0051/AntiBullyinghf)
 
 ---
+## Live API Endpoint Example
+
+**Endpoint:**  
+[POST /analyze](https://sste0051-anti-bullying-api2.hf.space/analyze)
+
+**Request Body (JSON):**
+```json
+{
+  "text": "You’re such a loser, nobody wants to be around you."
+}
+```
+**Example Response (JSON):**
+```json
+{
+  "zone": "🔴 Red Zone",
+  "likelihood": "Very high likelihood of bullying",
+  "comment": "Warning: this message looks very harmful. It may seriously hurt someone. This may cross the line into cyberbullying.",
+  "suggested_text": "Hey, it seems like people aren't connecting with you right now. Maybe try doing some different things."
+}
+```
+**Postman / Demo Screenshot:**
+
+<img src="postman_demo.png" alt="Postman API Demo" width="400"/>
+
 ## ⚡ Performance & Scalability
 
 - The API relies on Hugging Face models, Google Gemini API, and database logging, which can introduce latency.  

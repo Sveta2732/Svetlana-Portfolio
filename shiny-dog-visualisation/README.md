@@ -46,7 +46,7 @@ Data sources include **government open data portals**, **Wikipedia (for web scra
 
 ## Methods and Actions Taken
 
-1. **Data Wrangling & Cleaning**  
+1. **Data Wrangling & Cleaning in R**  
    - Libraries: `tidyverse`, `dplyr`, `readr`  
    - Data was preprocessed and formatted, aggregated by council and relevant categories, derived metrics (e.g., average dogs per person, responsible ownership percentages) were calculated, and tabular datasets were merged with each other and with spatial data.
 
@@ -66,7 +66,7 @@ Data sources include **government open data portals**, **Wikipedia (for web scra
 ---
 ## Technical Stack & Key Libraries 🛠️
 
-This project is implemented in **R** as an **interactive Shiny application**, leveraging a combination of data wrangling, visualisation, and spatial/network tools:
+This **R-based project** is implemented as an **interactive Shiny application**, leveraging a combination of data wrangling, visualisation, and spatial/network tools:
 
 - **Shiny & Interactivity**: `shiny`, `htmlwidgets`, `ggiraph`  
 - **Data Wrangling**: `tidyverse`, `dplyr`, `readr`  
@@ -219,8 +219,8 @@ shiny-dog-visualisation/
 ## How to Run the Project
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/shiny-dog-visualisation.git
-cd shiny-dog-visualisation
+git clone https://github.com/Sveta2732/Svetlana-Portfolio.git
+cd Svetlana-Portfolio/shiny-dog-visualisation
 ```
 ### 2. Install R and RStudio
 
