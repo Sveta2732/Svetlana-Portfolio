@@ -143,7 +143,7 @@ ml-cyberbullying-detector-api/
 ## Live API Endpoint Example
 
 **Endpoint:**  
-[POST /analyze](https://sste0051-anti-bullying-api2.hf.space/analyze)
+`POST /analyze https://sste0051-anti-bullying-api2.hf.space/analyze`
 
 **Request Body (JSON):**
 ```json
@@ -162,7 +162,9 @@ ml-cyberbullying-detector-api/
 ```
 **Postman / Demo Screenshot:**
 
-<img src="postman_demo.png" alt="Postman API Demo" width="400"/>
+<img src="https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/51c3887fa0fd6b2b298faf1150f8cadee14c6d95/ml-cyberbullying-detector-api/demo/postman.png" 
+     alt="Postman Screenshot" 
+     width="500"/>
 
 ## ⚡ Performance & Scalability
 
