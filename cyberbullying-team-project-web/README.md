@@ -160,8 +160,9 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
     "comparison": "20.7"
   }
   ```
-**Postman Demo:**  
-<img src="screenshot2.png" alt="Postman Screenshot2" width="400"/>
+  **Postman Demo:**  
+  <img src="https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/8acbd2c8a705004d09430dcbfdb9168a0340185c/cyberbullying-team-project-web/demo/postmen2.png" 
+      alt="Postman Screenshot2" width="400"/>
 
 
 **Demo:**  
