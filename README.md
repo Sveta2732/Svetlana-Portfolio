@@ -39,6 +39,8 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 
 Interactive anti-cyberbullying platform for teenagers, gamified learning with AI text analysis and interactive visualisations. Contributed to **dataset cleaning, React visualisations, backend API, toxicity detection, and database design**.  
 
+**Value:** Demonstrates Data Science and Analysis skills by transforming **real-world teen cyberbullying data** into **actionable insights and interactive visualisations**. Showcases Data Engineering through **MySQL database design, APIs** for gameplay and AI logging, and **deployment** of backend services on **AWS**. Highlights ML/NLP application and development of an **ML-powered API** for toxicity detection, turning raw data into educational, engaging experiences.
+
 [cyberbullying-team-project-web](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web)  
 
 </td>
@@ -60,6 +62,8 @@ Interactive anti-cyberbullying platform for teenagers, gamified learning with AI
 **Role:** Data Scientist & Backend Engineer  
 
 ML API detecting toxic messages and suggesting safer alternatives. Integrated multiple **pre-trained models** and Gemini API. Backend logs all requests to AWS database. Includes live Gradio demo and integration into the anti-cyberbullying website.
+
+**Value:** Showcases **practical application of ML models for real-world problems**, integration of models through APIs (Data Engineering), and logging of request analytics in a database, highlighting the ability to build end-to-end ML pipelines and analytical solutions.
 
 [View ml-cyberbullying-detector-api on GitHub](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api)
 
@@ -83,6 +87,8 @@ ML API detecting toxic messages and suggesting safer alternatives. Integrated mu
 
 Interactive R Shiny app exploring dog ownership, responsible ownership, and dog-related incidents in South Australia. Includes **lollipop plots, Sankey diagrams, polar bar charts, maps, time series, and waffle charts**.
 
+**Value:** Highlights **Data Analysis and visualization skills** by turning complex datasets on dog ownership and incidents into interactive, insightful charts. Demonstrates proficiency in **data wrangling, aggregation, and visual storytelling** to support informed decision-making.
+
 [View shiny-dog-visualisation on GitHub](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/shiny-dog-visualisation)  
 
 </td>
@@ -102,6 +108,8 @@ Interactive R Shiny app exploring dog ownership, responsible ownership, and dog-
 **Role:** Data Scientist  
 
 Detects Card-Not-Present (CNP) fraud in eCommerce transactions using large-scale datasets. Implements **feature engineering, Spark ML pipelines, model training and evaluation, and K-Means clustering**. Designed for big data workflows and scalable ML, demonstrating applied PySpark skills and practical experience in fraud detection.
+
+**Value:** Demonstrates **Big Data Analytics and Data Engineering skills** using PySpark to process millions of transactions, alongside Machine Learning to build predictive models. Showcases the ability to create **scalable ML pipelines for analyzing real-world business data**.
 
 [View fraud_detection_project on GitHub](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-big-data)
 </td>

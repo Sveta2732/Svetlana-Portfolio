@@ -12,10 +12,15 @@
 **Goal:**  
 Part of an anti-cyberbullying platform for teenagers. Detects toxic or harmful messages, suggests safer rephrasing, and logs results for analysis.
 
+- Demonstrates ability to build **production-ready ML API** with **cloud-based data storage**. 
+- API and database allow collecting and storing messages for future analysis or monitoring, even if metrics are not calculated.
+- Shows **full-cycle workflow**: ML modeling, NLP processing, API development, cloud data logging, and practical, user-facing application.
+
 **Key Features:**  
 - Detects toxic text using **pre-trained Hugging Face models**  
 - Suggests safer alternatives via Google Gemini API (with local fallback)  
-- Logs predictions and rephrased text in AWS MySQL  
+- Logs predictions and rephrased text in AWS MySQL for secure storage, future monitoring, and analysis
+- Demonstrates hybrid ML + rule-based NLP pipeline with teen-slang dictionary support
 - Provides a demo interface via Gradio  
 - Integrated with web platform for real-time analysis
 
@@ -79,7 +84,21 @@ This API is part of an anti-cyberbullying web platform designed for teenagers. I
    - suggested alternative wording
 6. All processed text, model outputs, and suggestions are stored in an AWS MySQL database for analytics and monitoring.
 7. A Gradio interface is also provided for testing and demonstration, but it is not part of the production pipeline.
+---
+## 🤖 Machine Learning & NLP
+- Integrated multiple pre-trained Hugging Face models (Detoxify, Roberta) for toxicity detection.
+- Developed a hybrid ML + rule-based pipeline, combining model predictions with a custom teen-slang dictionary for improved accuracy.
+- Implemented teen-slang dictionary for custom toxicity flags.
+- Built fallback paraphrasing system using Google Gemini API and local BART model.
+- Designed data logging workflow to store all inputs, model outputs, and suggested rephrases in AWS MySQL, enabling future analysis and monitoring.
+- Built a production-ready REST API capable of handling real-time text input and returning structured analysis.
+- Demonstrates ability to combine ML, NLP, and cloud-based data engineering to deliver a full-stack AI solution.
 
+---
+## 🗄️ Data Management & Engineering
+- Centralized AWS MySQL database for all analyzed messages and paraphrases.
+- Ensured consistent data formatting between ML outputs and database schema.
+- ETL workflow from incoming text → model inference → database logging.
 ---
 
 ## 🧠 What I Learned – Short Reflection

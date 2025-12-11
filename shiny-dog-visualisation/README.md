@@ -1,7 +1,16 @@
 # Dog Ownership Visualisation in South Australia (R Shiny App) 🐶
 
-## **TL;DR:**  
-Interactive **R Shiny application** analysing dog ownership patterns and dog-related incidents in South Australia. Demonstrates expertise in **data wrangling, aggregation, preprocessing, and merging of tabular and spatial datasets**, combined with **exploratory data analysis** and creation of **interactive, non-standard visualisations** (e.g., circular lollipop plots, Sankey diagrams, polar diverging bars, maps, waffle charts, and conditional time series). Highlights skills in **dashboard design, storytelling with data, and interactivity implementation**, directly applicable to **junior data analyst and data scientist roles**.
+## TL;DR 
+
+Interactive **R Shiny application** exploring dog ownership patterns and dog-related incidents in South Australia. Showcases expertise as a **Data Analyst / Data Scientist** through:
+
+- **Data wrangling, preprocessing, and merging in R** of multiple tabular and spatial datasets to create a unified analysis-ready dataset.  
+- **Exploratory data analysis and data storytelling**, using visualisations to answer key questions about ownership patterns, community safety, and incident trends.  
+- **Non-standard, interactive visualisations** (circular lollipop plots, Sankey diagrams, polar diverging bars, waffle charts, conditional time series, interactive maps) that go beyond standard bar, scatter, or line charts.  
+- **Dashboard design and interactivity**, enabling users to explore trends dynamically with filters, sliders, and drill-down features.  
+- Demonstrates ability to **enrich standard visualization tools** (Matplotlib, ggplot2, Tableau, Power BI) with advanced, interactive R Shiny techniques for deeper insights.  
+
+This project highlights practical skills in **full-cycle data analysis**, combining **data wrangling, visualisation, interactivity, and storytelling** to deliver actionable, user-facing insights.
 
 
 ## Project Overview

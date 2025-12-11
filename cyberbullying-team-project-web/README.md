@@ -16,18 +16,55 @@ Our team successfully presented the final product to industry professionals and 
 **Goal:**  
 Teen-focused platform to help recognise, report, and respond to cyberbullying. Combines AI, gamified learning, and interactive visualisations.
 
-**Key Contributions:**  
+**My Key Contributions:**  
 - **Data Analysis & Research:** Cleaned and merged teen cyberbullying datasets.  
 - **Interactive Visualisations:** React dashboards showing cyberbullying stats.  
 - **Game API ("Clean My Feed"):** AWS Lambda + MySQL backend for gamified learning.  
 - **Toxicity Detection API:** FastAPI + pre-trained Hugging Face models + Gemini API with AWS MySQL logging.  
 - **Database Design:** Centralized schema supporting APIs, scoring, and analytics.
 
+### 🧠 Data Science / Data Analysis / Data Management Skills
+
+**Data Science & Analysis**
+- Data wrangling & preprocessing (R, Python)
+- Cleaning and merging large heterogeneous datasets
+- Preparing structured datasets for analysis and visualisation
+- Requirements-driven analytical workflows (dataset auditing, consistency checks)
+
+**Data Visualisation & Storytelling**
+- Designing age-appropriate, user-centric visualisations
+- Communicating statistics to non-technical audiences (teenagers, educators)
+- Building interactive dashboards (React)
+
+**Database & Data Engineering**
+- ETL pipeline development (R → MySQL → AWS)
+- MySQL schema design for multiple platform features & normalisation
+- AWS RDS deployment and maintenance
+- Backend data-access layers (Lambda, FastAPI)
+- Data validation & integrity checks
+- Ensured consistent data formatting across services (preprocessing + schema alignment)
+
+**Applied Machine Learning**
+- Integrated multiple pre-trained NLP models (Detoxify, RoBERTa-based classifier, Sentiment model)
+- Built hybrid ML + LLM decision pipeline (HuggingFace models + Gemini API)
+- Developed rule-based logic combining model outputs for cyberbullying detection
+- Implemented paraphrasing pipeline using Gemini with local model fallback
+- Logged model outputs to AWS RDS for analytics and system monitoring
+
+**Data Management**
+- Designed a centralised MySQL database supporting multiple platform services
+- Created structured tables for analytics, gameplay, and toxicity logs
+- Implemented consistent data flow between APIs and the database
+- Maintained clean, well-organised data structures for downstream analysis
+
 **Tech Stack:**  
 R, Python, React, FastAPI, AWS Lambda, MySQL, Hugging Face NLP models (pre-trained), Gemini API
 
 **Live Demo:**  
-[Website](https://worldwecreated.org/) (partial features; see repo for videos/GIFs)  
+[Website](https://worldwecreated.org/) (project now owned by Monash; some features may be inactive)
+> Note: Full platform rights were transferred to Monash University after project completion.
+The student team no longer maintains the live site, so certain features may not function as originally designed.
+For an accurate view of the system, please refer to the attached GIFs and demo videos in the repository. 
 
 **Outcome:**  
 - Presented to industry professionals; **won Monash PG Industry Experience Expo**  
@@ -79,24 +116,36 @@ Below is a detailed breakdown of each area.
 ### Topic Research & Dataset Analysis
 
 Conducted research and analyzed multiple datasets on teen cyberbullying.  
+- Used **real Australian cyberbullying data** from official sources:
+  - **ABS (Australian Bureau of Statistics)** – nationally representative datasets with calibrated weights and population benchmarks (ERP)
+  - **data.gov.au** – publicly available, peer-reviewed datasets
+  - **Google Trends** – public search trend data for correlation analysis
 
-- Cleaned, merged, and formatted data in R for consistent use.  
-- Produced statistics to guide visualisation and gameplay design.  
+- Cleaned large heterogeneous datasets on teen cyberbullying (CSV, Excel) in R.
+- Merged multiple sources into analysis-ready structured datasets.
+- Generated descriptive statistics to guide UX design and game balancing.
+- Validated dataset quality before database ingestion.
 - Prepared CSVs for backend and interactive features.  
+
 
 ---
 
-### Interactive Visualisations
+### Data Visualisation & Data Storytelling
 
-I designed and implemented two interactive visualisations to make cyberbullying statistics engaging for teenagers:
+I designed two interactive visualisations focused on **age-appropriate** communication, transforming complex cyberbullying statistics into accessible insights for teenagers.
 
-- **Visualisation 1 – "How My Class Looks Like":**  
+Because teenagers do not engage with traditional statistical charts, I applied data storytelling principles:
+- Simplified statistical indicators without losing meaning
+- Used character-guided narrative (Gleepo) to communicate complex trends
+- Integrated animation and interactivity to increase engagement  
+
+**Visualisation 1 – "How My Class Looks Like":**  
   A personalised snapshot of cyberbullying prevalence, showing teens they are not alone and encouraging them to seek help. 
   *(Displayed on the website under **“Cyber Stats”**)*
   ![How My Class Looks Like](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/visualisation1.gif)
 
 
-- **Visualisation 2 – "Social Media & Cyberbullying":**  
+**Visualisation 2 – "Social Media & Cyberbullying":**  
   Highlights cyberbullying patterns on popular platforms with an age-appropriate, stylised format and links to reporting tools.
   *(Displayed on the website under **“Net Quiz”**)*
   ![Social Media & Cyberbullying](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/visualisation2.gif)
@@ -196,15 +245,47 @@ This API has its **own repository**: [ml-cyberbullying-detector-api](https://git
 
 ### Database Schema & Data Flow
 
-A centralized **MySQL database** underpins all game and analysis APIs:  
+A central **MySQL database** supports all platform features — gameplay, analytics, and toxicity detection.
 
-- Stores comments, user submissions, and individual responses.  
-- Supports balanced comment delivery and scoring logic.  
-- Logs player actions and performance for analytics and growth tracking.  
 
-**Technical Stack:** MySQL (AWS)
+#### **ETL Pipeline (R → MySQL → AWS)**
 
----
+
+- Prepared processed datasets for import into MySQL.  
+- Executed the ETL workflow:  
+  **Extract** (CSV) → **Transform** (R scripts) → **Load** (MySQL on AWS RDS).
+
+
+
+#### **Database Design & Data Management (MySQL, AWS RDS)**
+
+- Designed relational tables for:
+  - **Comments dataset** (source text used in the game)  
+  - **Gameplay responses & scoring results**  
+  - **Toxicity detection logs** from the FastAPI ML pipeline  
+  - **User submissions & paraphrasing outputs**
+
+- Created structured, well-organised tables supporting analytics and API workflows.  
+- Deployed and configured a **MySQL RDS** instance.  
+- Connected backend services (FastAPI, Lambda) to the shared database.  
+- Ensured consistent data formatting and schema alignment across services.
+
+
+#### **Backend Data Access (AWS Lambda)**
+
+- Developed Python Lambda functions as lightweight data-access microservices.  
+- Added CORS handling for frontend requests.  
+- Supported storage and retrieval of:
+  - Player responses  
+  - Comment rotation and assignments  
+  - Scoring and performance logs  
+
+
+
+#### **Tech Stack**
+
+**MySQL · AWS RDS · AWS Lambda · FastAPI · Python · R**
+
 
 ## 🛠️ Tech Stack
 

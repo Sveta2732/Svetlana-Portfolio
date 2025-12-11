@@ -1,7 +1,17 @@
 # eCommerce Fraud Detection with Big Data (PySpark MLlib) 💳⚡
 
 ## TL;DR
-PySpark-based project for detecting Card-Not-Present (CNP) fraud using large-scale eCommerce data. Covers the full big data workflow including feature engineering, Spark ML pipelines, model training and evaluation, and clustering—showcasing practical experience with Spark and applied machine learning at scale.
+
+PySpark-based **eCommerce fraud detection project** handling millions of transactions to identify Card-Not-Present (CNP) fraud. Demonstrates **full-cycle applied machine learning with Big Data**, including:
+
+- **Data wrangling, preprocessing, and feature engineering at scale** using PySpark DataFrames.  
+- **ML pipeline development and model training** with Random Forest and Gradient Boosted Trees, achieving high predictive accuracy and reliability.  
+- **Behavioral clustering with K-Means** to uncover patterns in fraudulent user activity.  
+- **Exploratory data analysis and visualization** to interpret feature relationships and fraud patterns.  
+- Experience with **production-ready ML workflow**, from raw data ingestion to model evaluation and insights extraction.  
+- **Practical big data skills**, including schema definition, aggregation, and performance optimization in PySpark.
+
+This project highlights **hands-on expertise in Big Data ML workflows**, pipeline engineering, fraud analytics, and practical data-driven decision support.
 
 ---
 
@@ -111,13 +121,18 @@ jupyter notebook notebooks/ml_bigdata.ipynb
 ---
 
 ## Key Learnings
+-  **Practical experience with big data** pipelines in PySpark for real-world ML applications.
+- **Big Data & PySpark Expertise:** Efficiently processed millions of rows, handled schema enforcement, transformations, and aggregations for high-performance ML workflows.
 
-* Practical experience with big data pipelines in PySpark for real-world ML applications.
-* Built highly accurate ML models for fraud detection at scale (GBT: AUC 1.0). 
+- **Full-cycle ML Workflow:** Built end-to-end pipelines from raw data to feature engineering, model training, evaluation, and insights generation.
 
-* Reinforced best practices in ML pipeline creation, model evaluation, and reproducibility in a big data context. 
+- **High-performance Fraud Detection Models:** Random Forest & Gradient Boosted Tree models achieved Accuracy > 0.998, Precision/Recall > 0.85, suitable for deployment at scale.
 
-* Explored unsupervised learning at scale, using clustering to uncover behavioral patterns that inform fraud detection strategies
+
+- **Applied ML & Business Impact:** Demonstrates how ML outputs can support operational fraud prevention strategies and improve decision-making.
+
+- **Reproducibility & Best Practices:** Structured codebase, modular pipelines, and documentation allow scalable and reproducible workflows.
+
 
 ---
 This project was originally submitted as Assignment 2A for FIT5202 (Monash University, 2024), focused on building ML models for eCommerce fraud detection using big data techniques. It demonstrates practical expertise in ML pipelines, PySpark, and real-world fraud analytics
