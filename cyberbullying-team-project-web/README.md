@@ -1,14 +1,27 @@
-# Anti-Cyberbullying Web Application
+# Anti-Cyberbullying Web Application 🔒
 
 **Data Science · AI · AWS · Full-Stack Collaboration · R · React · FastAPI · Python · MySQL**
 
 This repository contains my individual Data Science and Backend Engineering contributions to a 6-student team project — an interactive anti-cyberbullying web application designed for teenagers.  
-The platform combines educational content, AI-assisted text analysis, interactive visualisations and a gamified learning experience to help young people recognise, report and respond to online abuse.
+> The platform combines educational content, AI-assisted text analysis, interactive visualisations and a gamified learning experience to help young people recognise, report and respond to online abuse.
 
-Our team successfully presented the final product to industry professionals and **won the Monash PG Industry Experience Expo**.
+**Project:** Teen-focused anti-cyberbullying web platform combining AI, data visualisation and gamified learning.  
+**My Role:** Data Scientist & Backend Engineer responsible for analytics, ML integration, database design and backend APIs.  
+**What I did:** Cleaned, wrangled, and analysed Australian datasets, designed and implemented a centralised database, built an ML-based toxicity detection API, created interactive React visualisations, and developed AWS Lambda game APIs.  
+**What I learned:** Full data-pipeline ownership — from data wrangling → ML → backend → UX-focused data storytelling.  
+**Why it matters to employers:** Demonstrates ability to deliver production-ready data pipelines, integrate ML into product workflows, and collaborate cross-functionally to ship user-facing features.
+
+- **Complete data ownership:** Processed raw datasets → designed schema → built ETL → implemented APIs integrated with frontend. 
+- **Production-ready components:** Toxicity Detection API (FastAPI + Hugging Face + Gemini) and serverless game backend (AWS Lambda + RDS). 
+- **Experience with Australian data sources:** Worked with ABS and data.gov. 
+- **Full-stack collaboration:** Designed React visualisations and translated data insights into UX for teenagers. 
+- **Practical ML deployment:** Hybrid ML + LLM decision pipeline with logging, fallback logic and analytics. 
+- **Cloud architecture:** Deployed and managed AWS RDS MySQL and Lambda-based microservices.
+
+**Achievement:** 🏆 Presented to industry professionals and **won the Monash PG Industry Experience Expo**.
 
 ---
-## TL;DR – Quick Overview
+## 📝TL;DR – Quick Overview
 
 **Type:** Group Project · Data Science · AI · Full-Stack Web App  
 **Role:** Data Scientist & Backend Engineer  
@@ -73,18 +86,20 @@ For an accurate view of the system, please refer to the attached GIFs and demo v
 ---
 ## 🔍 Project Overview
 
-Teenagers often struggle to recognise cyberbullying, understand how to respond, and know where to seek help.  
+Cyberbullying affects many teenagers and often goes unrecognised or unreported. Children often struggle to recognise cyberbullying, understand how to respond, and know where to seek help.  
 Our web application tackles this challenge through a **space-themed, story-driven learning experience** guided by **Gleepo**, a friendly alien who leads users through a safe and engaging anti-cyberbullying journey.
 
-To help teens build real recognition and help-seeking skills, the platform combines:
 
-- **Interactive data visualisations** — transforming abstract cyberbullying statistics into relatable, classroom-level insights.
-- **Gamified learning** — teaching teens to differentiate between normal online behaviour and harmful interactions.
-- **Real teen stories (video content)** — fostering emotional connection, validation, and awareness that they’re not alone.
-- **AI-powered text checking** — identifying toxic or harmful language.
-- **Resource pathways** — clear, easy-to-navigate links to professional support, reporting tools, and trusted adult advice.
+Key reasons this project matters:
+- Translates complex cyberbullying research into accessible guidance for teens and educators.
+- Uses NLP and LLMs to provide real-time, educational feedback on harmful language.
+- Delivers interactive visualisations that make abstract statistics relatable at a classroom level.
+- Is built on real Australian datasets (ABS, data.gov.au), increasing relevance for local stakeholders.
+- Gamified learning and real teen stories enhance engagement and practical understanding for teens
+- Offers resource pathways — clear, easy-to-navigate links to professional support, reporting tools, and trusted adult advice.
+- Demonstrates how data science and UX design can collaborate to support digital wellbeing and improve help-seeking behaviour.
 
-This blend of **AI**, **data visualisation**, **game-based learning**, and **narrative design** makes the platform educational, relatable, and accessible for teenagers.
+>This blend of **AI**, **data visualisation**, **game-based learning**, and **narrative design** makes the platform educational, relatable, and accessible for teenagers.
 
 ---
 
@@ -113,7 +128,7 @@ Below is a detailed breakdown of each area.
 
 ---
 
-### Topic Research & Dataset Analysis
+### 1️⃣ Topic Research & Dataset Analysis
 
 Conducted research and analyzed multiple datasets on teen cyberbullying.  
 - Used **real Australian cyberbullying data** from official sources:
@@ -124,23 +139,23 @@ Conducted research and analyzed multiple datasets on teen cyberbullying.
 - Cleaned large heterogeneous datasets on teen cyberbullying (CSV, Excel) in R.
 - Merged multiple sources into analysis-ready structured datasets.
 - Generated descriptive statistics to guide UX design and game balancing.
-- Validated dataset quality before database ingestion.
+
 - Prepared CSVs for backend and interactive features.  
 
 
 ---
 
-### Data Visualisation & Data Storytelling
+### 2️⃣ Data Visualisation & Data Storytelling
 
 I designed two interactive visualisations focused on **age-appropriate** communication, transforming complex cyberbullying statistics into accessible insights for teenagers.
 
 Because teenagers do not engage with traditional statistical charts, I applied data storytelling principles:
 - Simplified statistical indicators without losing meaning
-- Used character-guided narrative (Gleepo) to communicate complex trends
+- Used character-guided narrative (Gleepo) to communicate trends
 - Integrated animation and interactivity to increase engagement  
 
 **Visualisation 1 – "How My Class Looks Like":**  
-  A personalised snapshot of cyberbullying prevalence, showing teens they are not alone and encouraging them to seek help. 
+  A personalised snapshot of cyberbullying prevalence that automatically recalculates statistics based on the entered class size, showing teens they are not alone in their experience and encouraging them to seek help. 
   *(Displayed on the website under **“Cyber Stats”**)*
   ![How My Class Looks Like](https://github.com/Sveta2732/Svetlana-Portfolio/raw/f5985b9978ec192729a76d4bec635a39363e6f70/cyberbullying-team-project-web/demo/visualisation1.gif)
 
@@ -157,7 +172,7 @@ Because teenagers do not engage with traditional statistical charts, I applied d
 
 ---
 
-### “Clean My Feed” — Game API Development
+### 3️⃣ “Clean My Feed” — Game API Development
 
 Backend logic for **“Clean My Feed”**, a gamified learning experience helping teenagers identify cyberbullying in realistic comments. Focused on **data-driven gameplay, personalised feedback, and analytical insights**.
 
@@ -180,7 +195,7 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
     - Total score and percentile ranking  
 
   **Endpoint:**  
-   `POST /postResult2 https://25g8thdik5.execute-api.ap-southeast-2.amazonaws.com/default/postResult2)`
+   `POST /postResult2 https://25g8thdik5.execute-api.ap-southeast-2.amazonaws.com/default/postResult2`
 
      **Request Body (JSON):**
   ```json
@@ -224,7 +239,7 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
 
 ---
 
-### Toxicity Detection API
+### 4️⃣  Toxicity Detection API
 
 Analyzes user-submitted messages to detect harmful or bullying content and offers **rephrased, safer alternatives**.  
 
@@ -243,9 +258,9 @@ This API has its **own repository**: [ml-cyberbullying-detector-api](https://git
 
 ---
 
-### Database Schema & Data Flow
+### 5️⃣ Database Schema & Data Flow
 
-A central **MySQL database** supports all platform features — gameplay, analytics, and toxicity detection.
+A central **MySQL database** supports all platform features — gameplay, analytics, toxicity detection, and cyberbullying statistics imported from CSV datasets.
 
 
 #### **ETL Pipeline (R → MySQL → AWS)**

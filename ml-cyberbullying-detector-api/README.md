@@ -28,9 +28,14 @@ Part of an anti-cyberbullying platform for teenagers. Detects toxic or harmful m
 Python, FastAPI, Hugging Face, Google Gemini API, AWS RDS (MySQL), Gradio, JSON
 
 **Performance Notes:**  
-- Processing can take up to ~25 seconds  
-- Gemini API may take several minutes if inactive  
+- Processing can take up to ~25 seconds for ~90% of cases
+- API may take several minutes to respond if inactive on free hosting 
 - Hosted on a free server → possible latency  
+
+**Demo & Impact**
+
+- 540 demo messages processed and stored in AWS database
+- CPU-limited free hosting causes ~25s response; heavier models could be swapped in on GPU for better accuracy in production
 
 **Live Demo & Media:**  
 - [Hugging Face Space Demo](https://huggingface.co/spaces/sste0051/AntiBullyinghf)  
@@ -95,6 +100,25 @@ This API is part of an anti-cyberbullying web platform designed for teenagers. I
 - Demonstrates ability to combine ML, NLP, and cloud-based data engineering to deliver a full-stack AI solution.
 
 ---
+## 🏎️ Model Performance & Deployment Considerations
+
+The API integrates multiple pre-trained NLP models for toxicity and cyberbullying detection. Key highlights:
+
+- **High-quality models with strong metrics:**  
+  - Example: RoBERTa fine-tuned on Jigsaw datasets achieves **AUC-ROC 0.98** and **F1-score 0.76** on test data.  
+  - spaCy en_core_web_sm pipeline provides reliable tokenization, POS tagging, sentence segmentation, and NER (**F1 scores 0.84–0.91**) for NLP preprocessing.
+
+- **Lightweight, deployment-friendly models:**  
+  - Selected smaller models for CPU-friendly inference to support free Hugging Face hosting.  
+  - Ensures the API remains responsive (~25 seconds typical for full inference).  
+  - Maintains reasonable trade-off between speed and accuracy for real-time user interactions.
+
+> CPU-limited free hosting is the reason for ~25s response time. More complex or larger models could achieve higher accuracy and finer-grained predictions but require more computational resources. In a production environment with GPU support, these heavier models could be easily swapped in for improved performance.
+
+By combining high-performing classifiers with lightweight models, the system balances **prediction quality**, **resource efficiency**, and **scalability**.
+
+
+---
 ## 🗄️ Data Management & Engineering
 - Centralized AWS MySQL database for all analyzed messages and paraphrases.
 - Ensured consistent data formatting between ML outputs and database schema.
@@ -140,8 +164,6 @@ ml-cyberbullying-detector-api/
 
 ## 🔗 Live Demo
 
-### Website Screenshots
-![Website Demo](https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/ml-cyberbullying-detector-api/demo/text_checker.png)
 
 ### Gradio Screenshots
 ![Interface Demo](https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/75b920712a0cd7551c4f28b4695a33fbde8f9ddd/ml-cyberbullying-detector-api/demo/interface_demo.png)
@@ -189,11 +211,11 @@ ml-cyberbullying-detector-api/
 
 - The API relies on Hugging Face models, Google Gemini API, and database logging, which can introduce latency.  
 - Processing a full message can take **up to ~25 seconds** under normal conditions.  
-- If the Google Gemini API is inactive ("asleep"), it may take **several minutes** to wake up and respond.  
+- If the API is inactive ("asleep") on free Hugging Face hosting, it may take **several minutes** to wake up and respond.  
 - The project is hosted on a **free server**, which can further slow down response times, especially for large inputs or concurrent users.  
 - Future improvements could include:
+   - Using GPU-enabled hosting to replace lightweight models with heavier, more accurate ones
   - Caching frequent requests or model outputs
-  - Using lighter-weight models for faster response
   - Asynchronous API calls to improve user experience
   
 ---
