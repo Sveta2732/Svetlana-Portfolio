@@ -126,7 +126,7 @@ Detects Card-Not-Present (CNP) fraud in eCommerce transactions using large-scale
 
 **Type:** Learning Portfolio · SQL Challenge  
 **Tech Stack:** MySQL · SQL Queries · Data Analysis · CTEs · JOINs · CASE WHEN · GROUP BY · Window Functions  
-**Role:** Data Analyst & SQL Learner  
+**Role:** Data Analyst  
 
 A series of **8 structured business case studies** designed to improve SQL proficiency and analytical thinking. Each case simulates a real-world business scenario, including restaurants, delivery services, and e-commerce datasets. Solved questions cover **aggregations, conditional logic, CTEs, window functions, and time-based analysis**.
 
