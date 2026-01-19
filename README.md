@@ -115,6 +115,31 @@ Detects Card-Not-Present (CNP) fraud in eCommerce transactions using large-scale
 </td>
 </tr>
 </table>
+
+### 5️⃣ 8 Week SQL Challenge — Learning Portfolio 🧩
+<table>
+<tr>
+<td width="300">
+  <img src="https://8weeksqlchallenge.com/images/data-with-danny-logo.png" width="300px">
+</td>
+<td>
+
+**Type:** Learning Portfolio · SQL Challenge  
+**Tech Stack:** MySQL · SQL Queries · Data Analysis · CTEs · JOINs · CASE WHEN · GROUP BY · Window Functions  
+**Role:** Data Analyst & SQL Learner  
+
+A series of **8 structured business case studies** designed to improve SQL proficiency and analytical thinking. Each case simulates a real-world business scenario, including restaurants, delivery services, and e-commerce datasets. Solved questions cover **aggregations, conditional logic, CTEs, window functions, and time-based analysis**.
+
+Questions in each case **start with simple tasks and gradually increase in complexity**. 
+
+**Value:** Demonstrates **SQL proficiency, analytical thinking, and problem-solving** across multiple business domains. Showcases ability to **translate business questions into SQL queries**, interpret results, and extract actionable insights. Highlights practical experience in data analysis, data wrangling, and advanced SQL techniques.  
+
+[View 8 Week SQL Challenge on GitHub](https://github.com/Sveta2732/-8_week_SQL_challenge)  
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 💡 Highlights
