@@ -15,7 +15,7 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 |----------|-------|
 | **Programming & Analysis** | <img src="https://img.icons8.com/color/48/000000/python.png" width="20"/> Python & <img src="https://img.icons8.com/color/48/000000/r.png" width="20"/> R · SQL |
 | **Data Visualisation** | ggplot2 · Tableau · R Shiny · matplotlib · seaborn |
-| **Machine Learning** | scikit-learn · Hugging Face · Keras · PySpark MLlib · ML Pipelines · K-Means Clustering |
+| **Machine Learning** | scikit-learn · Hugging Face · PyTorch · PySpark MLlib · ML Pipelines · K-Means Clustering |
 | **Web & Backend** | <img src="https://img.icons8.com/color/48/000000/api.png" width="20"/> FastAPI · AWS Lambda · MySQL · REST API |
 | **Data Wrangling** | pandas · numpy · tidyverse · dplyr · MySQL · Excel|
 | **Big Data & Spark** | PySpark · Spark MLlib · DataFrames · RDDs · ML Pipelines
@@ -25,7 +25,8 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 
 ## 📂 Projects
 
-### 1️⃣ Anti-Cyberbullying Web Application
+<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web">1️⃣ Anti-Cyberbullying Web Application</a></h3>
+
 <table>
 <tr>
 <td width="300">
@@ -41,7 +42,7 @@ Interactive anti-cyberbullying platform for teenagers, gamified learning with AI
 
 **Value:** Demonstrates Data Science and Analysis skills by transforming **real-world teen cyberbullying data** into **actionable insights and interactive visualisations**. Showcases Data Engineering through **MySQL database design, APIs** for gameplay and AI logging, and **deployment** of backend services on **AWS**. Highlights ML/NLP application and development of an **ML-powered API** for toxicity detection, turning raw data into educational, engaging experiences.
 
-[cyberbullying-team-project-web](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web)  
+[ View cyberbullying-team-project-web](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web)  
 
 </td>
 </tr>
@@ -49,7 +50,7 @@ Interactive anti-cyberbullying platform for teenagers, gamified learning with AI
 
 ---
 
-### 2️⃣ Cyberbullying Detection API 🛡️
+<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api">2️⃣ Cyberbullying Detection API 🛡️</a></h3>
 <table>
 <tr>
 <td width="300">
@@ -72,8 +73,36 @@ ML API detecting toxic messages and suggesting safer alternatives. Integrated mu
 </table>
 
 ---
+<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">3️⃣ Backyard Possums Detection to Prevent Pet–Wildlife Conflicts 🦦</a></h3>
+<table>
+<tr>
+<td width="300">
+  <img src="https://raw.githubusercontent.com/Sveta2732/cnn_possum_detection/0f73c3507b1c9c95c741341f270a62add178ace2/possum.png" width="300px">
+</td>
+<td>
 
-### 3️⃣ Dog Ownership in South Australia - R Shiny Visualisation🐶
+**Project is in progress** 
+
+**Type:** Individual Project · Computer Vision & Deep Learning  
+**Tech Stack:** Python · OpenCV · PyTorch · CNN (Transfer Learning, ResNet18) · Real-Time Detection  
+**Role:** Data Scientist & CV Engineer  
+
+This project focuses on detecting possums in a backyard at night using live camera feeds. The system combines **motion detection** for ROI extraction with a **CNN classifier** trained via **transfer learning (ResNet18)**. Detected possums could eventually trigger smart home actions, such as closing dog doors or opening possum feeding boxes, though automation is planned and not yet implemented.  
+The goal is to reliably detect possums and eventually connect detection to smart home actions: closing dog doors or opening feeding boxes (automation planned).  
+
+**Value:**  Demonstrates **end-to-end CNN-based detection pipeline** from ROI extraction → data preprocessing → transfer learning → frame-level and temporal decision.  
+
+ 
+
+[ View CNN-possum-detection](https://github.com/Sveta2732/cnn_possum_detection)
+
+</td>
+</tr>
+</table>
+
+---
+
+<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/shiny-dog-visualisation">4️⃣ Dog Ownership in South Australia - R Shiny Visualisation🐶</a></h3>
 <table>
 <tr>
 <td width="300">
@@ -95,7 +124,12 @@ Interactive R Shiny app exploring dog ownership, responsible ownership, and dog-
 </tr>
 </table>
 
-### 4️⃣ eCommerce Fraud Detection with Big Data 💳⚡
+
+
+
+---
+
+<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-big-data">5️⃣ eCommerce Fraud Detection with Big Data 💳⚡</a></h3>
 <table>
 <tr>
 <td width="300">
@@ -116,13 +150,15 @@ Detects Card-Not-Present (CNP) fraud in eCommerce transactions using large-scale
 </tr>
 </table>
 
-### 5️⃣ 8 Week SQL Challenge — Learning Portfolio 🧩
+<h3><a href="https://github.com/Sveta2732/-8_week_SQL_challenge">6️⃣ 8 Week SQL Challenge — Learning Portfolio 🧩</a></h3>
 <table>
 <tr>
 <td width="300">
   <img src="https://8weeksqlchallenge.com/images/data-with-danny-logo.png" width="300px">
 </td>
 <td>
+
+**Project is in progress** 
 
 **Type:** Learning Portfolio · SQL Challenge  
 **Tech Stack:** MySQL · SQL Queries · Data Analysis · CTEs · JOINs · CASE WHEN · GROUP BY · Window Functions  
