@@ -133,7 +133,8 @@ Interactive R Shiny app exploring dog ownership, responsible ownership, and dog-
 <table>
 <tr>
 <td width="300">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="300px">
+    <img src="https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/main/ml-big-data/demo/fraud.png"
+       width="300px">
 </td>
 <td>
 
