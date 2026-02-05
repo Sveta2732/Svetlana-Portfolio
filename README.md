@@ -77,7 +77,8 @@ ML API detecting toxic messages and suggesting safer alternatives. Integrated mu
 <table>
 <tr>
 <td width="300">
-  <img src="https://raw.githubusercontent.com/Sveta2732/cnn_possum_detection/0f73c3507b1c9c95c741341f270a62add178ace2/possum.png" width="300px">
+<img src="https://raw.githubusercontent.com/Sveta2732/cnn_possum_detection/edd30e65401a6e315837f61eca4ec5c3e44d621b/possum.png" width="300px">
+
 </td>
 <td>
 
@@ -106,7 +107,8 @@ The goal is to reliably detect possums and eventually connect detection to smart
 <table>
 <tr>
 <td width="300">
-  <img src="https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/shiny-dog-visualisation/demo/dogs.png" width="300px">
+<img src="https://raw.githubusercontent.com/Sveta2732/Svetlana-Portfolio/696578411a4d82b441f2297fe4b5552b77acb279/shiny-dog-visualisation/demo/dogs.png" width="300px">
+
 </td>
 <td>
 
