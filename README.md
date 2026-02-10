@@ -33,7 +33,9 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 
 </td>
 <td>
-
+🌐 **Live project website:**  
+👉 https://possum-tracker.sveta.com.au/en
+ 
 **Project is in progress** 
 
 **Type:** Individual Project · Computer Vision & Deep Learning  
