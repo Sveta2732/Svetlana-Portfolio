@@ -25,55 +25,7 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 
 ## 📂 Projects
 
-<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web">1️⃣ Anti-Cyberbullying Web Application</a></h3>
-
-<table>
-<tr>
-<td width="300">
-  <img src="https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/cyberbullying-team-project-web/demo/website.png" width="300px">
-</td>
-<td>
-
-**Type:** Group Project · Data Science & Backend  
-**Tech Stack:** Python · R · React · FastAPI · AWS Lambda · MySQL · Hugging Face · Gemini API  
-**Role:** Data Scientist & Backend Engineer  
-
-Interactive anti-cyberbullying platform for teenagers, gamified learning with AI text analysis and interactive visualisations. Contributed to **dataset cleaning, React visualisations, backend API, toxicity detection, and database design**.  
-
-**Value:** Demonstrates Data Science and Analysis skills by transforming **real-world teen cyberbullying data** into **actionable insights and interactive visualisations**. Showcases Data Engineering through **MySQL database design, APIs** for gameplay and AI logging, and **deployment** of backend services on **AWS**. Highlights ML/NLP application and development of an **ML-powered API** for toxicity detection, turning raw data into educational, engaging experiences.
-
-[ View cyberbullying-team-project-web](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web)  
-
-</td>
-</tr>
-</table>
-
----
-
-<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api">2️⃣ Cyberbullying Detection API 🛡️</a></h3>
-<table>
-<tr>
-<td width="300">
-  <img src="https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/ml-cyberbullying-detector-api/demo/text_checker.png" width="300px">
-</td>
-<td>
-
-**Type:** Individual Project · ML · FastAPI  
-**Tech Stack:** Python · FastAPI · Hugging Face · Google Gemini API · AWS RDS (MySQL) · Gradio  
-**Role:** Data Scientist & Backend Engineer  
-
-ML API detecting toxic messages and suggesting safer alternatives. Integrated multiple **pre-trained models** and Gemini API. Backend logs all requests to AWS database. Includes live Gradio demo and integration into the anti-cyberbullying website.
-
-**Value:** Showcases **practical application of ML models for real-world problems**, integration of models through APIs (Data Engineering), and logging of request analytics in a database, highlighting the ability to build end-to-end ML pipelines and analytical solutions.
-
-[View ml-cyberbullying-detector-api on GitHub](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api)
-
-</td>
-</tr>
-</table>
-
----
-<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">3️⃣ Backyard Possums Detection to Prevent Pet–Wildlife Conflicts 🦦</a></h3>
+<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">1️⃣ Backyard Possums Detection to Prevent Pet–Wildlife Conflicts 🦦</a></h3>
 <table>
 <tr>
 <td width="300">
@@ -102,6 +54,56 @@ The goal is to reliably detect possums and eventually connect detection to smart
 </table>
 
 ---
+
+<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web">2️⃣ Anti-Cyberbullying Web Application</a></h3>
+
+<table>
+<tr>
+<td width="300">
+  <img src="https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/cyberbullying-team-project-web/demo/website.png" width="300px">
+</td>
+<td>
+
+**Type:** Group Project · Data Science & Backend  
+**Tech Stack:** Python · R · React · FastAPI · AWS Lambda · MySQL · Hugging Face · Gemini API  
+**Role:** Data Scientist & Backend Engineer  
+
+Interactive anti-cyberbullying platform for teenagers, gamified learning with AI text analysis and interactive visualisations. Contributed to **dataset cleaning, React visualisations, backend API, toxicity detection, and database design**.  
+
+**Value:** Demonstrates Data Science and Analysis skills by transforming **real-world teen cyberbullying data** into **actionable insights and interactive visualisations**. Showcases Data Engineering through **MySQL database design, APIs** for gameplay and AI logging, and **deployment** of backend services on **AWS**. Highlights ML/NLP application and development of an **ML-powered API** for toxicity detection, turning raw data into educational, engaging experiences.
+
+[ View cyberbullying-team-project-web](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/cyberbullying-team-project-web)  
+
+</td>
+</tr>
+</table>
+
+---
+
+<h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api">3️⃣ Cyberbullying Detection API 🛡️</a></h3>
+<table>
+<tr>
+<td width="300">
+  <img src="https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/ml-cyberbullying-detector-api/demo/text_checker.png" width="300px">
+</td>
+<td>
+
+**Type:** Individual Project · ML · FastAPI  
+**Tech Stack:** Python · FastAPI · Hugging Face · Google Gemini API · AWS RDS (MySQL) · Gradio  
+**Role:** Data Scientist & Backend Engineer  
+
+ML API detecting toxic messages and suggesting safer alternatives. Integrated multiple **pre-trained models** and Gemini API. Backend logs all requests to AWS database. Includes live Gradio demo and integration into the anti-cyberbullying website.
+
+**Value:** Showcases **practical application of ML models for real-world problems**, integration of models through APIs (Data Engineering), and logging of request analytics in a database, highlighting the ability to build end-to-end ML pipelines and analytical solutions.
+
+[View ml-cyberbullying-detector-api on GitHub](https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/ml-cyberbullying-detector-api)
+
+</td>
+</tr>
+</table>
+
+---
+
 
 <h3><a href="https://github.com/Sveta2732/Svetlana-Portfolio/tree/main/shiny-dog-visualisation">4️⃣ Dog Ownership in South Australia - R Shiny Visualisation🐶</a></h3>
 <table>
