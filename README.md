@@ -25,7 +25,7 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 
 ## 📂 Projects
 
-<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">1️⃣ Backyard Possums Detection to Prevent Pet–Wildlife Conflicts 🦦</a></h3>
+<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">1️⃣ Backyard Possums Detection to🦦</a></h3>
 <table>
 <tr>
 <td width="300">
@@ -65,6 +65,8 @@ The goal is to reliably detect possums and eventually connect detection to smart
   <img src="https://github.com/Sveta2732/Svetlana-Portfolio/raw/7ab6af9216d5a7d14d9c027afcbc203721cefe72/cyberbullying-team-project-web/demo/website.png" width="300px">
 </td>
 <td>
+🌐 **Live project website:**  
+👉 https://cyber-bullying.sveta.com.au/
 
 **Type:** Group Project · Data Science & Backend  
 **Tech Stack:** Python · R · React · FastAPI · AWS Lambda · MySQL · Hugging Face · Gemini API  

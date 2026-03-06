@@ -1,5 +1,7 @@
 # Anti-Cyberbullying Web Application 🔒
 
+https://cyber-bullying.sveta.com.au
+
 **Data Science · AI · AWS · Full-Stack Collaboration · R · React · FastAPI · Python · MySQL**
 
 This repository contains my individual Data Science and Backend Engineering contributions to a 6-student team project — an interactive anti-cyberbullying web application designed for teenagers.  
@@ -74,7 +76,7 @@ Teen-focused platform to help recognise, report, and respond to cyberbullying. C
 R, Python, React, FastAPI, AWS Lambda, MySQL, Hugging Face NLP models (pre-trained), Gemini API
 
 **Live Demo:**  
-[Website](https://worldwecreated.org/) (project now owned by Monash; some features may be inactive)
+[Website](https://cyber-bullying.sveta.com.au/) (project now owned by Monash)
 > Note: Full platform rights were transferred to Monash University after project completion.
 The student team no longer maintains the live site, so certain features may not function as originally designed.
 For an accurate view of the system, please refer to the attached GIFs and demo videos in the repository. 
@@ -349,8 +351,8 @@ This experience combined **data science, backend engineering, and UX-focused des
 
 ## 🌐 Live Demo
 
-A live version of the website is available at [worldwecreated.org](https://worldwecreated.org/)
+A live version of the website is available at [worldwecreated.org](https://cyber-bullying.sveta.com.au/)
 
 > **Note:** Rights were transferred to Monash University; some features may not be fully functional.  
-> Recommended to view attached **videos and GIFs** in the repository for a complete demonstration of functionality.
+
 
