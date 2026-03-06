@@ -25,7 +25,7 @@ Currently seeking **junior Data Scientist / Data Analyst roles in Australia**.
 
 ## 📂 Projects
 
-<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">1️⃣ Backyard Possums Detection to🦦</a></h3>
+<h3><a href="https://github.com/Sveta2732/cnn_possum_detection">1️⃣ Backyard Possums Detection 🦦</a></h3>
 <table>
 <tr>
 <td width="300">
