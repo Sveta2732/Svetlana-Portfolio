@@ -5,6 +5,7 @@ import mysql.connector
 import threading
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 # FastAPI setup
 app = FastAPI()
@@ -18,11 +19,12 @@ app.add_middleware(
 
 
 # MySQL connection settings
+
 db_config = {
-    'host': 'cyberbullying.cbo2y20cex64.ap-southeast-2.rds.amazonaws.com',
-    'user': 'root',
-    'password': 'Beauisagoodboy',
-    'database': 'cyberbullying'
+    'host': os.getenv("DB_HOST"),
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASS"),
+    'database': os.getenv("DB_NAME2")
 }
 
 # Database logging

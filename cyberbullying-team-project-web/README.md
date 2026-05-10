@@ -197,7 +197,9 @@ Backend logic for **“Clean My Feed”**, a gamified learning experience helpin
     - Total score and percentile ranking  
 
   **Endpoint:**  
-   `POST /postResult2 https://25g8thdik5.execute-api.ap-southeast-2.amazonaws.com/default/postResult2`
+   `POST /postcomments https://cbapi-api-1033750149860.australia-southeast1.run.app/postcomments`
+   
+   This endpoint has been migrated from AWS Lambda to Google Cloud Run.
 
      **Request Body (JSON):**
   ```json
